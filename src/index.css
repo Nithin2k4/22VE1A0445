@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(120deg, #f0f4f8 0%, #e0e7ef 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  margin: 0;
+}
+
+.MuiBox-root {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  margin-top: 40px;
+  padding: 32px 24px;
+}
+
+h5, .MuiTypography-h5 {
+  color: #2d3a4a;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.MuiButton-contained {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+  transition: background 0.2s;
+}
+.MuiButton-contained:hover {
+  background: linear-gradient(90deg, #1565c0 0%, #1e88e5 100%);
+}
+
+.MuiTextField-root {
+  background: #f7fafc;
+  border-radius: 6px;
+}
+
+.MuiTableContainer-root {
+  margin-top: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.07);
+}
+
+.MuiAccordion-root {
+  background: #f8fafb;
+  border-radius: 8px !important;
+  margin-top: 8px;
+}
+
+.MuiAccordionSummary-root {
+  font-weight: 500;
+}
+
+.MuiTypography-colorError {
+  color: #d32f2f !important;
+}
+
+.MuiTypography-colorSuccess {
+  color: #388e3c !important;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
